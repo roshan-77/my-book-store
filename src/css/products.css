@@ -1,0 +1,12 @@
+.image{
+    width: auto;
+    height: 300px;
+}
+
+.books{
+    display: flex;
+    column-gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: absolute;
+}
