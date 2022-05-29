@@ -18,6 +18,7 @@ export function Navigation({prop, cartTotalCount, handleClick}){
         <Router>
         
             <div className="navigation-bar">
+                <div>Whitz Book Store</div>
                 <ul className="navigation-items">
                     <li>
                         <Link to='/'>Home</Link>

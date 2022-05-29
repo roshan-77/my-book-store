@@ -4,6 +4,14 @@ html,body{
 }
 .navigation-bar{
     background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-bar div{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 20px;
 }
 
 .navigation-items{
