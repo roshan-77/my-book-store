@@ -36,7 +36,7 @@ export function Navigation({prop, cartTotalCount, handleClick}){
 
 		<Routes>
 			<Route path='/' element={<Home/>}></Route>			
-			<Route path='/about' element={<About/>}></Route>
+			<Route path='/about' element={<About handleClick={handleClick}/>}></Route>
 			<Route path='/products' element={<Products handleClick={handleClick}/>}></Route>
 		</Routes>
       </Router>
